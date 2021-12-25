@@ -8,11 +8,11 @@ import Signup from "./Components/Header/Signup";
 import User from "./Components/Header/User";
 import Builder from "./Components/Header/Builder";
 
-import UserNavbar1 from "./UserNavbar1/UserNavbar1";
-import UserProfile from "./UserNavbar1/Pages/UserProfile";
-import Projects from "./UserNavbar1/Pages/Projects";
-import UNotification from "./UserNavbar1/Pages/UNotification";
-import UChat from "./UserNavbar1/Pages/UChat";
+import UserNavbar from "./Components/UserNavbar/UserNavbar";
+import UserProfile from "./Components/UserNavbar/Pages/UserProfile";
+import Projects from "./Components/UserNavbar/Pages/Projects";
+import UNotification from "./Components/UserNavbar/Pages/UNotification";
+import UChat from "./Components/UserNavbar/Pages/UChat";
 
 import BuilderNavbar from "./Components/BuilderNavbar/BuilderNavbar";
 import Chat from "./Components/BuilderNavbar/Pages/Chat";
@@ -25,7 +25,7 @@ import Footer1 from "./Components/Footer1/Footer1";
 import ImageSlider from "./Components/HomeSlider/ImageSlider";
 import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
-import Post from "./UserNavbar1/Pages/Post";
+import Post from "./Components/UserNavbar/Pages/Post";
 
 const App = () => {
   return (
@@ -41,8 +41,7 @@ const App = () => {
           <Route path="/builder" element={<Builder />} />
 
           {/* User Dashboard */}
-
-          <Route path="/usernavbar1" exact element={<UserNavbar1 />} />
+          <Route path="/usernavbar1" exact element={<UserNavbar />} />
           <Route path="/post" exact element={<Post />} />
           <Route path="/usrprfl" exact element={<UserProfile />} />
           <Route path="/Uprojects" exact element={<Projects />} />
