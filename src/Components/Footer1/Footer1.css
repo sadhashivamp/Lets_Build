@@ -1,0 +1,151 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.footer {
+  font-size: 14px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 100px;
+  padding: 50px;
+  color: #fff;
+  font-family: poppins;
+  box-shadow: 0px 1px 5px black;
+  background-color: rgb(16, 47, 50);
+}
+header p {
+  padding: 50px;
+  text-align: center;
+  color: #e48810;
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.footer > * {
+  flex: 1 100%;
+}
+
+.l-footer {
+  margin-right: 2.25em;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+  color: #e48810;
+  text-decoration: underline;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.r-footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+.r-footer > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.box a {
+  color: #999;
+}
+
+.h-box {
+  column-count: 1;
+  column-gap: 1.25em;
+}
+
+.b-footer {
+  text-align: center;
+  color: #999;
+  padding-top: 20px;
+}
+
+.l-footer p {
+  padding-right: 20%;
+  color: #999;
+}
+
+@media screen and (min-width: 600px) {
+  .r-footer > * {
+    flex: 1;
+  }
+
+  .features {
+    flex-grow: 1;
+  }
+
+  .l-footer {
+    flex: 1 0px;
+  }
+
+  .r-footer {
+    flex: 2 0px;
+  }
+}
+
+.footer-colomn h4 {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: 500px;
+  position: relative;
+}
+
+.footer-colomn h4::before {
+  content: "";
+  position: absolute;
+
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: 80px;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+}
+.footer-colomn .social-links a {
+  display: flex;
+  padding: 10px;
+  margin: 0 20px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  box-shadow: 0px 1px 5px black;
+  background-color: rgb(16, 47, 50);
+}
+
+.footer-colomn .social-links a:hover {
+  color: #eb3223;
+}
+.footer-colomn .social-links .facebook:hover {
+  color: #4968ad;
+}
+.footer-colomn .social-links .twitter:hover {
+  color: #49a1eb;
+}
+.footer-colomn .social-links .instagram:hover {
+  color: rgb(243, 9, 204);
+}
