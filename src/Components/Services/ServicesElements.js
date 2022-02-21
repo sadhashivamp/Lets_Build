@@ -44,6 +44,7 @@ export const ServicesWrapper = styled.div`
 export const ServicesCard = styled.div`
   box-shadow: 0px 2px 5px black;
   background-color: rgb(16, 47, 50);
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,6 +98,7 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  text-decoration: none;
 `;
 
 export const ServicesP = styled.p`

@@ -14,11 +14,7 @@ const Footer1 = () => {
     <footer class="footer">
       <div class="l-footer">
         <h1>
-          <img
-            style={{ width: "80px", height: "60px" }}
-            src={Mainlogo}
-            alt=""
-          />
+          <img className="footer_logo" src={Mainlogo} alt="" />
         </h1>
         <p>
           To construct any building (Project), we need to go to 2 different
